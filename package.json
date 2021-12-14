@@ -5,7 +5,7 @@
     "accounts": "npx hardhat accounts",
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-    "run": "npx hardhat run"
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
